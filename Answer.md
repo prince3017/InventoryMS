@@ -3,7 +3,7 @@
 Ans:  The relationship between the "Product" and "Product_Category" entities in the given database schema is a one-to-many relationship, also known as a parent-child relationship.
       In this relationship, each product belongs to a single product category, but a product category can have multiple products associated with it.
       Here's how the relationship is defined:
-          1. In the "Product" entity, there is a column named "category_id" of data type "int". This column serves as a foreign key 
+         ### 1. In the "Product" entity, there is a column named "category_id" of data type "int". This column serves as a foreign key ###
               reference to the primary key ("id" column) of the "Product_Category" entity.
           2. The "category_id" column in the "Product" entity establishes the connection between a specific product and its corresponding product category.
           3. A product can have only one value for "category_id", which means that a product can belong to only one product category.
